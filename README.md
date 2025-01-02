@@ -4,6 +4,20 @@ WeatherTap is a modern, responsive weather application built with React that pro
 
 ![WeatherTap Screenshot](https://i.postimg.cc/kXtCkN1r/logo.png)
 
+---
+### WEB LINK
+
+- [SEE NOW](https://weathertap.netlify.app/)
+
+### Download the App
+
+<a href="https://www.amazon.in/dp/B0D713LTZ4">
+    <img src="https://static.itch.io/images/store_badges/amazon.png" 
+         srcset="https://static.itch.io/images/store_badges/amazon.png 1x, https://static.itch.io/images/store_badges/amazon@2x.png 2x">
+</a>
+
+----
+
 ## ✨ Features
 
 - **Real-Time Weather Data**: Get current weather conditions for any location
