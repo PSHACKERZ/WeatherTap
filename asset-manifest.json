@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/WeatherTap/static/css/main.6381efef.css",
+    "main.js": "/WeatherTap/static/js/main.f6de2146.js",
+    "static/js/488.b89ddb6e.chunk.js": "/WeatherTap/static/js/488.b89ddb6e.chunk.js",
+    "index.html": "/WeatherTap/index.html",
+    "main.6381efef.css.map": "/WeatherTap/static/css/main.6381efef.css.map",
+    "main.f6de2146.js.map": "/WeatherTap/static/js/main.f6de2146.js.map",
+    "488.b89ddb6e.chunk.js.map": "/WeatherTap/static/js/488.b89ddb6e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6381efef.css",
+    "static/js/main.f6de2146.js"
+  ]
+}
