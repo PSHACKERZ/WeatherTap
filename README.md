@@ -6,8 +6,11 @@ WeatherTap is a modern, responsive weather application built with React that pro
 
 ---
 ### WEB LINK
+[![Play Now](https://img.shields.io/badge/Play%20Now-Live%20Demo-blue)](https://Weathertap.netlify.app/)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1c7a6221-b617-4a01-bc1e-48a84a43622b/deploy-status)](https://app.netlify.com/sites/weathertap/deploys)
 
-- [SEE NOW](https://weathertap.netlify.app/)
+
 
 ### Download the App
 
