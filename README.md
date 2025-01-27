@@ -2,10 +2,10 @@
 
 WeatherTap is a modern, responsive weather application built with React that provides real-time weather information and forecasts. With a clean, intuitive interface and powerful features, it helps users stay informed about weather conditions anywhere in the world.
 
-![WeatherTap Screenshot](https://i.postimg.cc/kXtCkN1r/logo.png)
+![WeatherTap Screenshot](https://i.postimg.cc/fTpP6LjM/68747470733a2f2f692e706f7374696d672e63632f6b5874436b4e31722f6c6f676f2e706e67.png)
 
 ---
-### WEB LINK
+
 [![Play Now](https://img.shields.io/badge/Play%20Now-Live%20Demo-blue)](https://Weathertap.netlify.app/)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1c7a6221-b617-4a01-bc1e-48a84a43622b/deploy-status)](https://app.netlify.com/sites/weathertap/deploys)
@@ -20,6 +20,16 @@ WeatherTap is a modern, responsive weather application built with React that pro
 </a>
 
 ----
+
+### ScreenShots of App
+<details>
+  <summary>Click to view Screenshots</summary>
+  <img src="https://i.postimg.cc/V64tCJLM/1.png" width="500">
+  <img src="https://i.postimg.cc/rsPtf74w/2.png" width="500">
+  <img src="https://i.postimg.cc/9FD9DF3R/3.png" width="500">
+  <img src="https://i.postimg.cc/fW2XWSPQ/4.png" width="500">
+</details>
+
 
 ## ✨ Features
 
@@ -134,7 +144,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **P.S. Hackerz**
-- Telegram: [@PSHACKERZ](https://t.me/PSHACKERZ)
+- Telegram: [@PS_Hacker](https://t.me/PS_Hacker)
 
 ## 🙏 Acknowledgments
 
@@ -150,4 +160,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made with ❤️ by [P.S. Hackerz](https://t.me/PSHACKERZ)
+Made with ❤️ by [P.S. Hackerz](https://t.me/PS_Hacker)
