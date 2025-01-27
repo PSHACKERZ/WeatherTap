@@ -565,7 +565,7 @@ const shareViaWhatsApp = () => {
       {/* Attribution and Share Section */}
 <div className="mt-4 sm:mt-6 flex justify-center items-center space-x-2 text-center">
 <a
-  href="https://t.me/PSHACKERZ"
+  href="https://t.me/PS_Hacker"
   target="_blank"
   rel="noopener noreferrer"
   className="
