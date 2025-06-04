@@ -133,9 +133,9 @@ const WeatherApp = () => {
     if (geoLocation) {
       fetchWeatherData(null, geoLocation);
     }
-  }, [geoLocation]);
+  }, [geoLocation, fetchWeatherData]);
 
-  const fetchWeatherData = async (e, searchLocation = location) => {
+  const fetchWeatherData = useCallback(async (e, searchLocation = location) => {
     e?.preventDefault();
     setLoading(true);
     setError(null);
@@ -167,7 +167,7 @@ const WeatherApp = () => {
     } finally {
       setLoading(false);
     }
-  };
+  }, [location]);
 
   // Toggle temperature unit
   const toggleTemperatureUnit = () => {
