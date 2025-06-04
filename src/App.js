@@ -261,14 +261,14 @@ const shareViaWhatsApp = () => {
   };
 
   return (
-    <div className={`min-h-screen p-4 transition-colors duration-300 ${
+    <main className={`min-h-screen p-4 transition-colors duration-300 ${
       isDarkMode ? 'bg-gray-900 text-white' : 'bg-gradient-to-br from-sky-200 to-blue-300 text-gray-900'
     }`}>
       <div className="mx-auto max-w-md">
         {/* Header */}
         <div className="mb-4 flex items-center justify-between relative">
           <h1 className="text-2xl font-bold flex items-center space-x-2">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="38" height="38">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="38" height="38" role="img" aria-label="WeatherTap Logo">
               <defs>
                 <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
                   <stop offset="0%" style={{stopColor:'#87CEEB', stopOpacity:1}} />
@@ -454,7 +454,7 @@ const shareViaWhatsApp = () => {
         : 'bg-gradient-to-r from-green-400 to-green-400 text-white hover:from-green-300 hover:to-green-500 focus:ring-green-600'
     }`}
   title="Share via WhatsApp"
-  aria-label="Share via WhatsApp"
+  aria-label="Share current weather conditions via WhatsApp"
 >
   <WhatsAppIcon className="h-5 w-5 mr-2" />
   ShareWeather
@@ -474,7 +474,8 @@ const shareViaWhatsApp = () => {
 
               <div className="flex items-center justify-between mb-4">
                 {React.createElement(getWeatherIcon(weatherData.current.condition.text), {
-                  className: "h-16 w-16 text-yellow-500"
+                  className: "h-16 w-16 text-yellow-500",
+                  'aria-label': weatherData.current.condition.text
                 })}
                 <div className="text-5xl font-bold">
                   {getTemperature(weatherData.current.temp_c)}
@@ -541,7 +542,7 @@ const shareViaWhatsApp = () => {
                         <p className="text-sm font-medium">
                           {new Date(day.date).toLocaleDateString('en-US', { weekday: 'short' })}
                         </p>
-                        <WeatherIcon className="mx-auto h-8 w-8 text-blue-500" />
+                        <WeatherIcon className="mx-auto h-8 w-8 text-blue-500" aria-label={day.day.condition.text} />
                         <div className="mt-2">
                           <p className="font-semibold">
                             {getTemperature(day.day.maxtemp_c)}
@@ -593,7 +594,7 @@ const shareViaWhatsApp = () => {
 </div>
 
     </div>
-    </div>
+    </main>
   );
 };
 
