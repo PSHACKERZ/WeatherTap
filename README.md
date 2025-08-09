@@ -141,11 +141,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
-
-**P.S. Hackerz**
-- Telegram: [@PS_Hacker](https://t.me/PS_Hacker)
-
 ## 🙏 Acknowledgments
 
 - Weather data provided by [WeatherAPI](https://www.weatherapi.com/)
